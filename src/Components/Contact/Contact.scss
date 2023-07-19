@@ -1,7 +1,9 @@
 
 
 .contacto{
+    /* margin: 0 auto; */
     margin-top: 6rem;
+    
 }
 
 
@@ -27,12 +29,6 @@
     margin-bottom: 1.5rem;
 }
 
-/* .contact__information i {
-    font-size: 2rem;
-    margin-right: 12px;
-    margin-top: -5px;
-    color: rgb(87, 175, 199)
-} */
 
 .contact__title{    
     font-size: 1.25rem;
@@ -50,6 +46,7 @@
 }
 /* formu */
 .contact-form{
+    /* width: 600px; */
     margin-top: 60px;
     padding-inline: 40px;
     display: grid;
@@ -63,9 +60,10 @@
 }
 
 .contact__content{
-    background-color: rgb(252, 250, 249);
+    background-color: rgb(248, 248, 248);
     border-radius: .5rem;
     padding: 0.75rem 1rem .25rem;
+    
 }
 .contact__label{
     font-size: 1rem;
@@ -105,14 +103,15 @@
     .contacto__section {
         display: grid;
         width: 600px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         padding: 60px 0;
-        margin: 0 auto;        
+        /* margin: 0 auto; */
+        gap: 2rem;        
     }
 
     .divderecho {
         width: 100%;
-        margin: 0;        
+        margin: 0 auto;        
     }
 
     .contact__inputs {
@@ -122,6 +121,7 @@
     }
 
     .contact-form{
+        width: 500px;
         margin-top: 0;
         padding: 0;
     }
@@ -133,7 +133,7 @@
         width: 768px;
         grid-template-columns: repeat(2, 1fr);
         padding: 60px 0;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-bottom: 30px;
     }
 }

@@ -9,9 +9,7 @@ export const Contact = () => {
     return (
         <section className="contacto" id="contacto">
             
-            <h2 className="titulo_section">CONTACT US</h2>                
-            
-            
+            <h2 className="titulo_section">CONTACT US</h2>   
             
             <div className="contacto__section">
                 <div className="divderecho">
@@ -31,7 +29,7 @@ export const Contact = () => {
                     </div>                    
                 </div>            
                 <form className="contact-form" action="">
-                    <div className="contact__inputs grid">
+                    <div className="contact__inputs">
                         <div className="contact__content">
                             <label htmlFor="nombre" className="contact__label">Name</label>
                             <input type="text" name="nombre" className="contact__input" id="nombre" required/>

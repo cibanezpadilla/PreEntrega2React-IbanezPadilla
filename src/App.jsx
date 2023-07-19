@@ -49,7 +49,7 @@ function App() {
           <Route path="/contact" element={ 
               <div>
                 <Store/>
-                <Contact />                
+                <Contact />                                
               </div>
            }/>
            <Route path="/about" element={ 
